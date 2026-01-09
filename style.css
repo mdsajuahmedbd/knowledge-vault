@@ -177,15 +177,15 @@ button.secondary:hover {
   border: 1px solid transparent;
 }
 
-/* Cards */
-#cards .section-title {
+/* Notes */
+#notes .section-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 16px;
 }
-#cards h2 {
+#notes h2 {
   color: #001931;
   font-size: 48px;
   font-weight: 700;
@@ -194,12 +194,12 @@ button.secondary:hover {
   text-transform: capitalize;
   padding: 58px 0 0 0;
 }
-#cards p {
+#notes p {
   color: #627382;
   line-height: 20px;
   text-align: center;
 }
-.cards-holder {
+.cards {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -251,14 +251,14 @@ button.secondary:hover {
   text-align: center;
 }
 
-/* Knowledge */
-#knowledge {
+/* Second Brain */
+#second-brain {
   background-color: #fff;
   padding: 120px 0;
   margin: 0;
   position: relative;
 }
-#knowledge .content-area {
+#second-brain .content-area {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
@@ -266,12 +266,12 @@ button.secondary:hover {
   align-items: center;
   gap: 60px;
 }
-#knowledge .section-image {
+#second-brain .section-image {
   width: 600px;
   height: 600px;
   border-radius: 12px;
 }
-#knowledge .section-content {
+#second-brain .section-content {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -279,20 +279,20 @@ button.secondary:hover {
   flex-wrap: nowrap;
   gap: 40px;
 }
-#knowledge .section-content .info {
+#second-brain .section-content .info {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 16px;
 }
-#knowledge .section-content span {
+#second-brain .section-content span {
   color: #30b868;
   font-weight: 500;
   line-height: 20px;
   text-align: left;
   text-transform: uppercase;
 }
-#knowledge .section-content h2 {
+#second-brain .section-content h2 {
   color: #001931;
   font-size: 48px;
   font-weight: 700;
@@ -300,7 +300,7 @@ button.secondary:hover {
   text-align: left;
   text-transform: capitalize;
 }
-#knowledge .section-content p {
+#second-brain .section-content p {
   color: #627382;
   font-family: Inter;
   font-size: 16px;
@@ -308,7 +308,7 @@ button.secondary:hover {
   line-height: 20px;
   text-align: left;
 }
-#knowledge .section-content ul {
+#second-brain .section-content ul {
   list-style: none;
   color: #001931;
   font-size: 16px;
@@ -321,7 +321,7 @@ button.secondary:hover {
   justify-content: flex-start;
   gap: 16px;
 }
-#knowledge .section-content ul li {
+#second-brain .section-content ul li {
   display: flex;
   align-items: center;
   justify-content: flex-start;

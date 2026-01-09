@@ -263,6 +263,11 @@ button.secondary:hover {
   align-items: center;
   gap: 60px;
 }
+#knowledge .section-image{
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+}
 #knowledge .section-content {
   display: flex;
   justify-content: flex-start;

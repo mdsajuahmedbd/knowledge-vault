@@ -266,7 +266,7 @@ button.secondary:hover {
   align-items: center;
   gap: 60px;
 }
-#knowledge .section-image{
+#knowledge .section-image {
   width: 600px;
   height: 600px;
   border-radius: 12px;
@@ -412,12 +412,12 @@ footer {
   margin: 0;
   padding: 0 0 80px;
 }
-.footer-logo{
+.footer-logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.footer-links{
+.footer-links {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

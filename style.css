@@ -205,7 +205,7 @@ button.secondary:hover {
   align-items: center;
   flex-wrap: nowrap;
   gap: 24px;
-  margin: 44px 0 0;
+  margin: 44px 0 -48px 0;
 }
 .card {
   background: #fff;
@@ -255,10 +255,8 @@ button.secondary:hover {
 #knowledge {
   background-color: #fff;
   padding: 120px 0;
-  margin: 50px 0 0 0;
-  overflow: hidden;
+  margin: 0;
   position: relative;
-  z-index: 999;
 }
 #knowledge .content-area {
   display: flex;

@@ -53,6 +53,7 @@ nav .container {
   line-height: inherit;
   font-weight: 500;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 .menu ul li a:hover {
   color: #469165;
@@ -71,6 +72,7 @@ nav .container {
   border: 0;
   cursor: pointer;
   border-radius: 4px;
+  transition: all 0.3s ease;
 }
 .nav-btn:hover {
   background-color: #000000;
@@ -155,6 +157,7 @@ nav .container {
   font-size: 16px;
   line-height: 19px;
   text-transform: capitalize;
+  transition: all 0.3s ease;
 }
 button.primary {
   background-color: #469165;
@@ -390,6 +393,7 @@ button.secondary:hover {
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 #early-access .content-area button:hover {
   background-color: #000;

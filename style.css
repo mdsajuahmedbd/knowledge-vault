@@ -442,17 +442,25 @@ footer {
 .footer-links ul li a {
   background-color: #fff;
   color: #000;
-  border-radius: 50%;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 20px;
   height: 20px;
   font-size: 12px;
   line-height: 20px;
   text-align: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
 }
 .footer-links ul li a:hover {
   background-color: #469165;
   color: #fff;
+}
+.footer-links ul li a svg {
+  display: block;
+  width: 12px;
+  height: 12px;
 }
 .footer-copyright {
   border-top: 1px solid #e5e7eb33;
